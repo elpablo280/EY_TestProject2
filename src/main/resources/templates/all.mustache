@@ -1,0 +1,20 @@
+<html>
+<body>
+<div>
+    <form method="get" action="demo">
+        <button type="submit">Назад</button>
+    </form>
+</div>
+<div>
+<table>
+{{#messages_start}}
+{{/messages_start}}
+{{#messages}}
+                    <tr><td>{{bsch}}</td><td>{{vhodact}}</td><td>{{vhodpas}}</td><td>{{obordeb}}</td><td>{{oborkred}}</td><td>{{iskhact}}</td><td>{{iskhpas}}</td></tr>
+{{/messages}}
+{{#messages_end}}
+{{/messages_end}}
+</table>
+</div>
+</body>
+</html>
